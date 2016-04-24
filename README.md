@@ -6,7 +6,7 @@ Use eabihf if your kernel is build with hf.
 ## instructions
 git clone https://github.com/avafinger/gc2035_binary
 
-copy gc2035.ko to /lib/modules/3.4.XXX/kernel/drivers/media/video/sunxi-vfe/device and overwite gc2035.ko
+copy gc2035.ko to /lib/modules/3.4.XXX/kernel/drivers/media/video/sunxi-vfe/device and overwrite gc2035.ko
 
 sync
 
@@ -22,7 +22,7 @@ modprobe gc2035 hres=1
 modprobe vfe_v4l2
 
 
-tip:
+##tip:
 For the best result, load with: modprobe gc2035 hres=0 mclk=34
 
 If you have trouble loading this module on other kernel version, try this:
